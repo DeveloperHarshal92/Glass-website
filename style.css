@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    background-color: #2d2d2d;
+}
+
+.wrapper{
+    width: 860px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transform: translate(-50%,-50%);
+    background-color: #ffffff00;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    box-shadow: 10px 10px 25px #00000044,-10px -10px 25px #00000044;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle:nth-of-type(1){
+    width: 200px;
+    height: 200px;
+    left: 275px;   /*changed*/
+    bottom: 85px;
+    background : linear-gradient( to bottom, #fb00ff, #ff0000);
+}
+
+.circle:nth-of-type(2){
+    width: 50px;
+    height: 50px;
+    right: 470px;    /*changed*/
+    bottom: 200px;
+    background : linear-gradient( to bottom, #00ffddb4, #37ff00c1);
+}
+
+.circle:nth-of-type(3){
+    width: 250px;
+    height: 250px;
+    right: 275px;     /* changed */
+    top: 85px;
+    background : linear-gradient( to bottom, #62ff00, #fff200);
+}
+
+.circle:nth-of-type(4){
+    width: 50px;
+    height: 50px;
+    left: 410px;    /*changed*/
+    top: 210px;
+    background : linear-gradient( to bottom, #00fbe2cd, #00a6ff);
+}
+
+.header{
+    position: relative;
+    top: 30px;
+    display: flex;
+    color: #fff;
+}
+
+.header .logo{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 60px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.logo b{
+    font-size: 22px;
+}
+
+.header ul {
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
+
+.header ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 7px 20px;    /*changed*/
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.login_btn{
+    background-color: #000;
+    border-radius: 50px;
+    box-shadow: 6px 6px 15px #0000002b; 
+}
+
+.section1{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: #fff;
+    width: 300px;
+}
+
+.section1 h2{
+    font-size: 34px;
+}
+
+.section1 span{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.section1 p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.section1 button{
+    border: 0;
+    outline: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.section2{
+    position: absolute;
+    top: 130px;    /*changed*/
+    right: 85px;
+    width: 300px;
+}
+
+.section2 img{
+    width: 85%;   /*changed*/
+    height: 100%;
+    transform: scale(1.2);
+}
